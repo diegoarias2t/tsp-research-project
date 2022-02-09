@@ -38,7 +38,6 @@ sudo chmod 666 /var/run/docker.sock
 4. Install jupyter.
 > https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04
 
-
 ```
 sudo apt install jupyter-notebook
 ```
@@ -54,7 +53,7 @@ pip3 install .
 ```
 sudo apt install swig cmake libopenmpi-dev zlib1g-dev
 pip3 install stable-baselines[mpi]==2.10.2 box2d box2d-kengz
-pip3 install -r requirements.txt
+pip3 install daiquiri gputil psutil numpy pydrive gym==0.20.0 matplotlib prometheus_client tensorflow==1.15.2 pyyaml
 ```
 
 ## Running the project
