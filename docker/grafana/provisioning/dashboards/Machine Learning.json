@@ -22,7 +22,7 @@
   "fiscalYearStartMonth": 0,
   "graphTooltip": 2,
   "id": 1,
-  "iteration": 1644417589866,
+  "iteration": 1644423388740,
   "links": [],
   "liveNow": false,
   "panels": [
@@ -248,8 +248,8 @@
           "tags": [
             {
               "key": "host",
-              "operator": "=",
-              "value": "192.168.220.21"
+              "operator": "=~",
+              "value": "/^$host$/"
             }
           ]
         }
@@ -360,8 +360,8 @@
           "tags": [
             {
               "key": "host",
-              "operator": "=",
-              "value": "192.168.220.21"
+              "operator": "=~",
+              "value": "/^$host$/"
             }
           ]
         }
@@ -1268,7 +1268,7 @@
           "orderByTime": "ASC",
           "policy": "default",
           "query": "SELECT mean(\"usage_percent\") FROM \"docker_container_cpu\" WHERE (\"host\" = '192.168.220.21') AND $timeFilter GROUP BY time($__interval), \"container_name\" fill(none)",
-          "rawQuery": true,
+          "rawQuery": false,
           "refId": "A",
           "resultFormat": "time_series",
           "select": [
@@ -1289,8 +1289,8 @@
             {
               "condition": "AND",
               "key": "host",
-              "operator": "=",
-              "value": "192.168.220.21"
+              "operator": "=~",
+              "value": "/^$host$/"
             }
           ]
         }
@@ -2649,6 +2649,6 @@
   "timezone": "",
   "title": "Machine Learning",
   "uid": "m8912o1nk",
-  "version": 3,
+  "version": 5,
   "weekStart": ""
 }

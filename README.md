@@ -10,3 +10,16 @@
 
 ## Installation
 > ...
+0. sudo apt update
+
+1. Install docker
+https://docs.docker.com/engine/install/ubuntu/
+
+make sure to give permissions to your docker.sock folder (going to need that later)
+sudo chmod 666 /var/run/docker.sock
+
+1. Install docker compose
+https://docs.docker.com/compose/install/
+
+2. Install jupyter
+https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04
