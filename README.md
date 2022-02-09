@@ -7,7 +7,8 @@
 
 ## Requirements
 1. Python3
-2. docker-compose
+2. Docker engine
+3. Docker-compose
 
 ## Installation
 
