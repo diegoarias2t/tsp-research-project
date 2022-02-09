@@ -6,8 +6,9 @@ pydrive
 gym==0.20.0
 matplotlib
 prometheus_client
-tensorflow==1.15.2
-stable-baselines[mpi]==2.10.2
+pyyaml
 box2d
 box2d-kengz
-pyyaml
+
+#stable-baselines[mpi]==2.10.2
+#tensorflow==1.15.2
