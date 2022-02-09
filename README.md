@@ -12,6 +12,11 @@
 
 ## Installation
 
+0. Clone this repository
+```
+sudo git clone https://github.com/diegoarias2t/tsp-research-project
+```
+
 1. Update your system.
 ```
 sudo apt update
@@ -30,19 +35,22 @@ sudo chmod 666 /var/run/docker.sock
 3. Install docker compose.
 > https://docs.docker.com/compose/install/
 
-4. Install pip requirements.
-```
-sudo apt install python-pip python3-pip python3-dev swig cmake libopenmpi-dev zlib1g-dev
-sudo pip install stable-baselines[mpi]==2.10.2 box2d box2d-kengz
-pip install -r requirements.txt
-```
-
-5. Install jupyter.
+4. Install jupyter.
 > https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04
 
-6. Implementation of ml_monitor module.
+sudo apt install jupyter-notebook
+
+5. Implementation of ml_monitor module.
+
 ```
-sudo pip install .
+sudo pip3 install .
+```
+
+6. Install pip requirements.
+
+```
+sudo apt install swig cmake libopenmpi-dev zlib1g-dev
+sudo pip3 install stable-baselines[mpi]==2.10.2 box2d box2d-kengz
 ```
 
 ## Running the project
