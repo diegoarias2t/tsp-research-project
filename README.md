@@ -51,6 +51,7 @@ sudo pip3 install .
 ```
 sudo apt install swig cmake libopenmpi-dev zlib1g-dev
 sudo pip3 install stable-baselines[mpi]==2.10.2 box2d box2d-kengz
+sudo pip3 install daiquiri gputil psutil numpy pydrive gym==0.20.0 matplotlib prometheus_client tensorflow==1.15.2 pyyaml
 ```
 
 ## Running the project
