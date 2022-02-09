@@ -38,7 +38,10 @@ sudo chmod 666 /var/run/docker.sock
 4. Install jupyter.
 > https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04
 
+
+```
 sudo apt install jupyter-notebook
+```
 
 5. Implementation of ml_monitor module.
 
