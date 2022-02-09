@@ -11,25 +11,25 @@
 
 ## Installation
 
-1. Update your system
+1. Update your system.
 ```
 sudo apt update
 ```
 
-2. Install docker
+2. Install docker.
 > https://docs.docker.com/engine/install/ubuntu/
 
-Make sure to give the right permissions to your docker.sock folder (we are going to need that later)
+Make sure to give the right permissions to your docker.sock folder (we are going to need that later).
 
 ```
 sudo chmod -R 777 tsp-research-project/
 sudo chmod 666 /var/run/docker.sock
 ```
 
-3. Install docker compose
+3. Install docker compose.
 > https://docs.docker.com/compose/install/
 
-4. Install jupyter
+4. Install jupyter.
 > https://www.digitalocean.com/community/tutorials/how-to-set-up-jupyter-notebook-with-python-3-on-ubuntu-18-04
 
 ```
@@ -37,12 +37,12 @@ sudo apt install swig cmake libopenmpi-dev zlib1g-dev
 sudo pip install stable-baselines[mpi]==2.10.2 box2d box2d-kengz
 ```
 
-5. Install pip requirements
+5. Install pip requirements.
 ```
 pip install -r requirements.txt
 ```
 
-6. Implementation of ml_monitor module
+6. Implementation of ml_monitor module.
 ```
 pip install -r requirements.txt
 ```
