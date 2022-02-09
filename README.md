@@ -46,7 +46,7 @@ sudo apt install jupyter-notebook
 sudo pip3 install .
 ```
 
-6. Install pip requirements.
+6. Install pip dependencies.
 
 ```
 sudo apt install swig cmake libopenmpi-dev zlib1g-dev
