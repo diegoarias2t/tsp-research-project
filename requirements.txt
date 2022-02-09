@@ -1,5 +1,4 @@
 tensorflow==1.15.2
-stable-baselines[mpi]==2.10.2 box2d box2d-kengz
 gym==0.20.0
 matplotlib
 prometheus_client

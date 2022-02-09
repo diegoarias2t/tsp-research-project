@@ -45,5 +45,24 @@ pip install -r requirements.txt
 
 6. Implementation of ml_monitor module.
 ```
-pip install -r requirements.txt
+sudo pip install .
+```
+
+## Running the project
+1. Starting our docker environment.
+```
+cd docker/
+sudo docker-compose up
+```
+2. Initializing ml_monitor to send data to our pushgateway.
+```
+python3
+```
+```
+>>> import ml_monitor
+>>> ml_monitor.control.start()
+```
+3. Execute your Jupyter Notebook and start sending metrics.
+```
+jupyter notebook
 ```
