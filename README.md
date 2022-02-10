@@ -9,21 +9,22 @@
 1. Python3
 2. Docker engine
 3. Docker-compose
+4. Jupyter
 
 ## Installation
 
-0. Clone this repository
+1. Clone this repository
 ```
 sudo git clone https://github.com/diegoarias2t/tsp-research-project
 ```
 
-1. Update your system.
+2. Update your system.
 ```
 sudo apt update
 pip3 install --upgrade pip
 ```
 
-2. Install docker.
+3. Install docker.
 > https://docs.docker.com/engine/install/ubuntu/
 
 Make sure to give the right permissions to your docker.sock folder (we are going to need that later).
@@ -33,21 +34,21 @@ sudo chmod -R 777 tsp-research-project/
 sudo chmod 666 /var/run/docker.sock
 ```
 
-3. Install docker compose.
+4. Install docker compose.
 > https://docs.docker.com/compose/install/
 
-4. Install jupyter.
+5. Install jupyter.
 ```
 sudo apt install jupyter-notebook
 ```
 
-5. Implementation of ml_monitor module.
+6. Implementation of ml_monitor module.
 
 ```
 pip3 install .
 ```
 
-6. Installing the needed dependencies.
+7. Installing the needed dependencies.
 
 ```
 sudo apt install swig cmake libopenmpi-dev zlib1g-dev
