@@ -25,8 +25,7 @@ pip3 install --upgrade pip
 ```
 
 3. Install docker.
-> https://docs.docker.com/engine/install/ubuntu/
-
+> [`docs.docker.com/engine`](https://docs.docker.com/engine/install/ubuntu/)
 Make sure to give the right permissions to your docker.sock folder (we are going to need that later).
 
 ```
@@ -35,7 +34,7 @@ sudo chmod 666 /var/run/docker.sock
 ```
 
 4. Install docker compose.
-> https://docs.docker.com/compose/install/
+> [`docs.docker.com/compose`](https://docs.docker.com/compose/install/)
 
 5. Install jupyter.
 ```
