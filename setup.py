@@ -9,10 +9,6 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     install_requires=[
-        'tensorflow==1.15.2',
-        'stable-baselines==2.10.2',
-        'gym==0.20.0',
-        'numpy',
         'pydrive>=1.3.0,<2',
         'prometheus_client>=0.7.1,<1',
         'pyyaml>=5.1.2,<6',
