@@ -26,6 +26,7 @@ pip3 install --upgrade pip
 
 3. Install docker.
 > [`docs.docker.com/engine`](https://docs.docker.com/engine/install/ubuntu/)
+
 Make sure to give the right permissions to your docker.sock folder (we are going to need that later).
 
 ```
