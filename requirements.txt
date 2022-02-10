@@ -10,6 +10,4 @@ pyyaml
 stable-baselines[mpi]==2.10.2 
 box2d 
 box2d-kengz
-
-#stable-baselines[mpi]==2.10.2
-#tensorflow==1.15.2
+tensorflow==1.15.2
