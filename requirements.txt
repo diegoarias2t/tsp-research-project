@@ -7,7 +7,8 @@ gym==0.20.0
 matplotlib
 prometheus_client
 pyyaml
-box2d
+stable-baselines[mpi]==2.10.2 
+box2d 
 box2d-kengz
 
 #stable-baselines[mpi]==2.10.2

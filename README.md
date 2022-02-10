@@ -20,6 +20,7 @@ sudo git clone https://github.com/diegoarias2t/tsp-research-project
 1. Update your system.
 ```
 sudo apt update
+pip3 install --upgrade pip
 ```
 
 2. Install docker.
@@ -52,7 +53,7 @@ pip3 install .
 
 ```
 sudo apt install swig cmake libopenmpi-dev zlib1g-dev
-pip3 install stable-baselines[mpi]==2.10.2 box2d box2d-kengz
+########## pip3 install stable-baselines[mpi]==2.10.2 box2d box2d-kengz
 pip3 install -r requirements.txt
 ```
 
