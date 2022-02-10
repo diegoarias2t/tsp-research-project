@@ -64,8 +64,6 @@ sudo docker-compose up
 2. Initializing ml_monitor to send data to our pushgateway.
 ```
 python3
-```
-```
 >>> import ml_monitor
 >>> ml_monitor.control.start()
 ```
